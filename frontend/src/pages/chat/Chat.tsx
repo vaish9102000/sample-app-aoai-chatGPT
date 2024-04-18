@@ -10,7 +10,7 @@ import { isEmpty } from "lodash";
 import DOMPurify from 'dompurify';
 
 import styles from "./Chat.module.css";
-import Contoso from "../../assets/Contoso.svg";
+import Azure from "../../assets/Azure.svg";
 import { XSSAllowTags } from "../../constants/xssAllowTags";
 
 import {
@@ -649,12 +649,12 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={ui?.chat_logo ? ui.chat_logo : Contoso}
+                                    src={Azure}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>{ui?.chat_title}</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>{ui?.chat_description}</h2>
+                                <h1 className={styles.chatEmptyStateTitle}>Start Working with me</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>hello start working from now</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px" }} role="log">
