@@ -38,13 +38,15 @@ MINIMUM_SUPPORTED_AZURE_OPENAI_PREVIEW_API_VERSION = "2024-02-15-preview"
 load_dotenv()
 
 # UI configuration (optional)
-UI_TITLE = os.environ.get("UI_TITLE") or "ElasticOps"
-UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start Chating with ElaticOps AI"
+UI_TITLE = os.environ.get("UI_TITLE") or "HCLTECH"
+UI_LOGO = os.environ.get("UI_LOGO")
+UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
+UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start chatting with HCLTECH"
 UI_CHAT_DESCRIPTION = (
     os.environ.get("UI_CHAT_DESCRIPTION")
-    or "Hi How May I Help You"
+    or "This chatbot is configured to answer your questions related to ticketing"
 )
-UI_FAVICON = os.environ.get("UI_FAVICON")
+UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
 UI_SHOW_SHARE_BUTTON = os.environ.get("UI_SHOW_SHARE_BUTTON", "true").lower() == "true"
 
 
