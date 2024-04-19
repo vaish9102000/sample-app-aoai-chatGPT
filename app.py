@@ -39,8 +39,6 @@ load_dotenv()
 
 # UI configuration (optional)
 UI_TITLE = os.environ.get("UI_TITLE") or "ElasticOps"
-UI_LOGO = os.environ.get("UI_LOGO")
-UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start Chating with ElaticOps AI"
 UI_CHAT_DESCRIPTION = (
     os.environ.get("UI_CHAT_DESCRIPTION")
