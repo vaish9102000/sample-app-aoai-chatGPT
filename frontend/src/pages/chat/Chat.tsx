@@ -649,12 +649,12 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={ui?.chat_logo ? ui.chat_logo : Contoso}
+                                    src={ui?.chat_logo ? ui.chat_logo : ElasticOps-AI}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>{ui?.chat_title}</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>{ui?.chat_description}</h2>
+                                <h1 className={styles.chatEmptyStateTitle}>Start Chat with ElasticOps-AI</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>How may I help you</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px" }} role="log">
