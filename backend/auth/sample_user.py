@@ -29,7 +29,7 @@ sample_user = {
   "X-Forwarded-Proto": "https",
   "X-Forwarded-Tlsversion": "1.2",
   "X-Ms-Client-Principal": "your_base_64_encoded_token",
-  "X-Ms-Client-Principal-Id": "00000000-0000-0000-0000-000000000000",
+  "X-Ms-Client-Principal-Id": "f4a2672c-5f95-40a9-897e-4c8e5131c0f5",
   "X-Ms-Client-Principal-Idp": "aad",
   "X-Ms-Client-Principal-Name": "testusername@constoso.com",
   "X-Ms-Token-Aad-Id-Token": "your_aad_id_token",
