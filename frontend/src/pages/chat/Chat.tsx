@@ -652,7 +652,7 @@ const Chat = () => {
                                     src={ui?.chat_logo ? ui.chat_logo : ElasticOpsAI}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
-                                />
+                                /img>
                                 <h1 className={styles.chatEmptyStateTitle}>Start Chat with ElasticOpsAI</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>How may I help you</h2>
                             </Stack>
